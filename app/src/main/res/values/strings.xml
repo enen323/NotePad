@@ -1,43 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2007 The Android Open Source Project
-
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-  
-          http://www.apache.org/licenses/LICENSE-2.0
-  
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
--->
-
 <resources>
     <string name="app_name">NotePad</string>
-    <string name="live_folder_name">Notes</string>
 
-    <string name="title_edit_title">Note title:</string>
-    <string name="title_create">New note</string>
-    <string name="title_edit">Edit: %1$s</string>
-    <string name="title_notes_list">Notes</string>
+    <!-- 主界面 -->
+    <string name="tab_notes">笔记</string>
+    <string name="tab_todo">待办</string>
+    <string name="title_notes">笔记</string>
+    <string name="title_todo">待办</string>
+    <string name="note_count">共 %1$d 条</string>
+    <string name="todo_count">%1$d 项待完成</string>
 
-    <string name="menu_add">New note</string>
-    <string name="menu_save">Save</string>
-    <string name="menu_delete">Delete</string>
-    <string name="menu_open">Open</string>
-    <string name="menu_revert">Revert changes</string>
-    <string name="menu_copy">Copy</string>
-    <string name="menu_paste">Paste</string>
+    <!-- 笔记列表 -->
+    <string name="note_untitled">无标题</string>
+    <string name="note_new">新建笔记</string>
+    <string name="note_empty_title">还没有笔记</string>
+    <string name="note_empty_hint">点击右下角按钮记录第一条笔记</string>
+    <string name="note_empty_search">没有找到相关笔记</string>
+    <string name="note_search_hint">搜索标题或内容</string>
+    <string name="note_snippet_attachment">包含 %1$d 个附件</string>
 
-    <string name="button_ok">OK</string>
-    <string name="text_title">Title:</string>
+    <string name="menu_search">搜索</string>
+    <string name="menu_sort">排序</string>
+    <string name="sort_updated">最近修改</string>
+    <string name="sort_created">创建时间</string>
+    <string name="sort_title">标题</string>
+    <string name="menu_pin">置顶</string>
+    <string name="menu_unpin">取消置顶</string>
+    <string name="menu_delete">删除</string>
+    <string name="menu_save">保存</string>
+    <string name="menu_share">分享</string>
 
-    <string name="resolve_edit">Edit note</string>
-    <string name="resolve_title">Edit title</string>
+    <string name="delete_note_title">删除笔记</string>
+    <string name="delete_note_message">「%1$s」将被永久删除，包括其中的附件。</string>
+    <string name="delete">删除</string>
+    <string name="cancel">取消</string>
+    <string name="undo">撤销</string>
 
-    <string name="error_title">Error</string>
-    <string name="error_message">Error loading note</string>
-    <string name="nothing_to_save">There is nothing to save</string>
+    <!-- 编辑器 -->
+    <string name="title_editor_new">新建笔记</string>
+    <string name="title_editor_edit">编辑笔记</string>
+    <string name="hint_title">标题</string>
+    <string name="hint_content">开始输入内容…</string>
+    <string name="time_created">创建于 %1$s</string>
+    <string name="time_updated">更新于 %1$s</string>
+    <string name="attachment_section">附件</string>
+    <string name="add_attachment">添加图片 / 语音 / 视频</string>
+    <string name="attachment_sheet_title">添加到笔记</string>
+    <string name="attach_image">从相册选择图片</string>
+    <string name="attach_video">从相册选择视频</string>
+    <string name="attach_camera">拍照</string>
+    <string name="attach_record">录音</string>
+    <string name="attachment_delete_title">删除附件</string>
+    <string name="attachment_delete_message">该附件将从笔记中移除。</string>
+    <string name="attachment_add_failed">添加附件失败</string>
+    <string name="no_camera">未找到可用的相机应用</string>
+    <string name="no_player">未找到可播放该文件的系统应用</string>
+    <string name="saved">已保存</string>
+    <string name="note_deleted">已删除笔记</string>
+    <string name="pinned">已置顶</string>
+    <string name="unpinned">已取消置顶</string>
+
+    <!-- 录音 -->
+    <string name="record_title">录制语音</string>
+    <string name="record_start">开始录音</string>
+    <string name="record_stop">停止并添加</string>
+    <string name="record_hint_idle">点击下方按钮开始录音</string>
+    <string name="record_hint_recording">正在录音…</string>
+    <string name="record_permission_denied">需要麦克风权限才能录音</string>
+    <string name="record_too_short">录音时间太短，请重试</string>
+
+    <!-- 待办 -->
+    <string name="todo_new">新建待办</string>
+    <string name="todo_empty_title">暂无待办事项</string>
+    <string name="todo_empty_hint">点击右下角按钮添加一条待办</string>
+    <string name="todo_filter_all">全部</string>
+    <string name="todo_filter_active">未完成</string>
+    <string name="todo_filter_done">已完成</string>
+    <string name="todo_dialog_title_new">新建待办</string>
+    <string name="todo_dialog_title_edit">编辑待办</string>
+    <string name="todo_hint_title">要做什么？</string>
+    <string name="todo_hint_detail">备注（可选）</string>
+    <string name="todo_due_none">未设置截止时间</string>
+    <string name="todo_due_set">截止：%1$s</string>
+    <string name="todo_due_clear">清除截止时间</string>
+    <string name="todo_due_overdue">已逾期 · %1$s</string>
+    <string name="todo_due_today">今天截止</string>
+    <string name="todo_due_tomorrow">明天截止</string>
+    <string name="todo_due_date">%1$s 截止</string>
+    <string name="todo_deleted">已删除待办</string>
+    <string name="todo_done">已完成</string>
+    <string name="todo_title_required">请填写待办内容</string>
+    <string name="todo_count_all">共 %1$d 项</string>
+    <string name="todo_count_active">%1$d 项未完成</string>
+
+    <!-- 通用 -->
+    <string name="error">出错了</string>
+    <string name="back">返回</string>
+    <string name="delete_note_confirm">删除后不可恢复，确定删除这条笔记吗？</string>
+    <string name="image_preview">图片预览</string>
 </resources>

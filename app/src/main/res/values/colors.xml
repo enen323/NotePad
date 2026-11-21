@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 浅色主题：纸张 / 墨色 -->
+    <color name="paper">#F6F4EF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_alt">#FBFAF6</color>
+    <color name="ink">#1B1C1A</color>
+    <color name="muted">#6F7A75</color>
+    <color name="divider">#E6E2DA</color>
+
+    <color name="primary">#2F6B5E</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#DCEFE8</color>
+    <color name="on_primary_container">#17453B</color>
+
+    <color name="accent">#B26A3C</color>
+    <color name="danger">#B3261E</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="scrim">#99000000</color>
+    <color name="scrim_light">#33000000</color>
+</resources>

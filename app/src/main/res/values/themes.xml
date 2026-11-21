@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 公共主题（明暗共用） -->
+    <style name="Theme.NotePad.Base" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/on_primary_container</item>
+
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/ink</item>
+        <item name="colorSurfaceVariant">@color/surface_alt</item>
+        <item name="colorOnSurfaceVariant">@color/muted</item>
+        <item name="colorOutline">@color/divider</item>
+        <item name="colorError">@color/danger</item>
+
+        <item name="android:colorBackground">@color/paper</item>
+        <item name="colorOnBackground">@color/ink</item>
+        <item name="android:windowBackground">@color/paper</item>
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- 浅色：深色图标 -->
+    <style name="Theme.NotePad" parent="Theme.NotePad.Base">
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <!-- 列表条目：标题 / 摘要 / 元信息 -->
+    <style name="TextAppearance.NotePad.Title" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="TextAppearance.NotePad.Snippet" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/muted</item>
+    </style>
+
+    <style name="TextAppearance.NotePad.Meta" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/muted</item>
+    </style>
+
+</resources>

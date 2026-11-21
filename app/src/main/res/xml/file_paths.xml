@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- 应用私有 media 目录，存放导入的图片 / 音频 / 视频 -->
+    <files-path
+        name="note_media"
+        path="media/" />
+    <cache-path
+        name="note_cache"
+        path="." />
+</paths>
